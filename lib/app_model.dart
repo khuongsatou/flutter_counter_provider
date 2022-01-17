@@ -11,7 +11,7 @@ class AppModelImplementation extends AppModel {
   int _counter = 0;
 
   AppModelImplementation() {
-    Future.delayed(Duration(seconds: 10))
+    Future.delayed(Duration(seconds: 2))
         .then((value) => getIt.signalReady(this));
   }
 

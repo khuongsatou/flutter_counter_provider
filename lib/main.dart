@@ -4,12 +4,14 @@ import 'package:provider/provider.dart';
 import 'package:provider_test/app_model.dart';
 import 'package:provider_test/change_provider.dart';
 import 'package:provider_test/counter.dart';
+import 'package:provider_test/locator.dart';
 
 final getIt = GetIt.instance;
 
 void main() {
   getIt.registerSingleton<AppModel>(AppModelImplementation(),
       signalsReady: true);
+  setup();
   runApp(
     MultiProvider(
       providers: [
