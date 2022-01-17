@@ -1,0 +1,13 @@
+{
+    "name":"app_cafe",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "run":"flutter run",
+        "check_devices":"flutter devices",
+        "flutter_test":"flutter test",
+        "build apk":"flutter build apk",
+        "build ios":"flutter build ios",
+        "clean":"flutter clean"
+    }
+}
